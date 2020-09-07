@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Panel from './components/Panel';
 import Player from './components/Player';
+import Panel from './components/Panel';
 import * as serviceWorker from './serviceWorker';
+
+window.$player = null;
 
 ReactDOM.render(
   <React.StrictMode>
