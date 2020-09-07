@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-var importScript = function importScript(resourceUrl) {
+
+var importScript = function ImportScript(resourceUrl) {
   useEffect(function () {
     var script = document.createElement('script');
     script.src = resourceUrl;
