@@ -1,0 +1,6 @@
+{
+  "name": "cvp",
+  "version": "0.12.0",
+  "private": true,
+  "main": "./cvp.min.js"
+}
