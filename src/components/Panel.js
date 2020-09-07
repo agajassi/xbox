@@ -1,9 +1,11 @@
 import React from "react"
-import importScript from 'importScript';
+import importScript from '../customHooks/importScript';
 
-importScript("/player/cvp.min.js");
-importScript("/player/cvui.min.js");
-importScript("/player/player.js");
+function getScripts(){
+  importScript("/player/cvp.min.js");
+  importScript("/player/cvui.min.js");
+  importScript("/player/player.js");
+}
 
 class Panel extends React.Component {
     
