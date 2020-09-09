@@ -1,12 +1,8 @@
 import React from "react"
-import importScript from 'importScript';
-
-importScript("/player/cvp.min.js");
-importScript("/player/cvui.min.js");
-importScript("/player/player.js");
+import cvp from 'cvp';
 
 class Panel extends React.Component {
-    
+  
   render() {
     return (
       <div>
