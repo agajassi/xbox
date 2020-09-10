@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Player from './components/Player';
-import Panel from './components/Panel';
+// import Panel from './components/Panel';
 import * as serviceWorker from './serviceWorker';
 
-window.$player = null;
+window.$player; // eslint-disable-line
 
 ReactDOM.render(
   <React.StrictMode>
     <Player />
-    <Panel />
+    {/* <Panel /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
